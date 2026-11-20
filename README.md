@@ -172,3 +172,14 @@ streamlit run app.py
 ```
 
 The web dashboard will launch at `http://localhost:8501`.
+---
+
+## 7. Live Demo
+
+The Agent Gatekeeper prototype is deployed using Streamlit Community Cloud.
+
+**Live Application:** https://agent-gatekeeper-ai.streamlit.app
+
+Users can explore the dashboard, register AI agents, manage agent authorization, simulate banking requests, and review compliance audit logs.
+
+**Note:** This is an academic prototype developed for demonstration purposes. It does not connect to actual JPMorgan Chase banking systems or process real financial transactions.
