@@ -183,3 +183,27 @@ The Agent Gatekeeper prototype is deployed using Streamlit Community Cloud.
 Users can explore the dashboard, register AI agents, manage agent authorization, simulate banking requests, and review compliance audit logs.
 
 **Note:** This is an academic prototype developed for demonstration purposes. It does not connect to actual JPMorgan Chase banking systems or process real financial transactions.
+
+---
+
+## 8. Testing and Verification
+
+The Agent Gatekeeper prototype includes six test scenarios designed to evaluate AI agent authorization and banking request handling.
+
+The testing covers:
+
+1. Known active agent requesting balance information.
+2. Unknown agent requesting banking information.
+3. Payment exceeding the configured spending limit.
+4. Payment within the configured spending limit.
+5. Revoked agent attempting a banking request.
+6. Money transfer authorization.
+
+Test outcomes are documented in [TEST_RESULTS.md](TEST_RESULTS.md).
+
+## 9. Project Limitations
+
+- This is an academic prototype.
+- It does not connect to actual JPMorgan Chase banking infrastructure.
+- No real banking transactions or customer funds are processed.
+- The authorization decisions demonstrate a proposed approach to AI agent governance and risk management.
