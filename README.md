@@ -207,3 +207,29 @@ Test outcomes are documented in [TEST_RESULTS.md](TEST_RESULTS.md).
 - It does not connect to actual JPMorgan Chase banking infrastructure.
 - No real banking transactions or customer funds are processed.
 - The authorization decisions demonstrate a proposed approach to AI agent governance and risk management.
+
+- ---
+---
+
+## 8. Testing and Verification
+
+The Agent Gatekeeper prototype includes six predefined test cases covering different banking authorization scenarios.
+
+The test scenarios include:
+
+1. Known active agent requesting account balance.
+2. Unknown agent requesting account balance.
+3. Bill payment above the autonomous spending limit.
+4. Bill payment below the autonomous spending limit.
+5. Revoked agent attempting a banking request.
+6. Active agent requesting a money transfer.
+
+The detailed testing methodology, authorization rules and results are documented in [TEST_RESULTS.md](TEST_RESULTS.md).
+
+## 9. Project Limitations
+
+- This is an academic prototype.
+- It does not connect to actual JPMorgan Chase banking infrastructure.
+- No real banking transactions are processed.
+- All authorization decisions are for demonstration purposes.
+- 
